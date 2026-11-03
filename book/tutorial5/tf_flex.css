@@ -41,11 +41,10 @@ section#main {
 section#topics {
    display: flex;
    flex-flow: row wrap;
+}
 
 section#topics article {
    flex: 1 1 200px;
-}
-
 }
 
 
@@ -58,11 +57,11 @@ section#topics article {
   
 aside {
    order: 99;
-}
+   }
 
 footer {
    order: 100;
-}
+   }
  
 }
 
@@ -80,7 +79,7 @@ footer {
 
    nav.horizontal li {
       flex: 1 1 auto;
-}
+   }
 
 }
 
